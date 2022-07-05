@@ -19,8 +19,8 @@ const localeText = (locale: string): string => {
   switch (locale) {
     case 'en':
       return '🇬🇧 English'
-    case 'vi_VN':
-      return '🇬🇧 Vietnam'
+    case 'zh-CN':
+      return '🇨🇳 China'
     default:
       return '🇬🇧 English'
   }
